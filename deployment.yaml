@@ -26,5 +26,5 @@ spec:
     app: my-app
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 8035
       nodePort: 30007  # Access via http://<node-ip>:30007
